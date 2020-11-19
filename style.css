@@ -4,34 +4,34 @@ body {
   margin: 0;
 }
 body {
-   background-color: #495873);
+   background-color: #a5abb6);
 }
 h1 {
   font-size: 150px;
   font-family: 'Roboto Condensed', sans-serif;
    text-align: center;
-   background-image: url(https://img.freepik.com/free-vector/clean-white-hexagonal-medical-concept-background_1017-19739.jpg?size=626&ext=jpg);
+   background-image: url(https://hips.hearstapps.com/hmg-prod/images/190307-fish-tacos-112-1553283299.jpg?crop=0.950xw%3A0.803xh%3B0.0449xw%2C0.120xh&resize=480%3A270);
    padding: 0%;
    margin: 0%;
-   font-weight: 800;
+   font-weight: 900;
 }
 .Sidebar {
-  height: 100vh;
-  max-width: 400px;
-  background-color: #274275;
+  height: 10vh;
+  width: 100vw;
+  background-color: rgb(53, 75, 196);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 .Item {
   transition: linear 100ms;
   flex: 1;
-  width: 350px;
+  width: 300px;
   height: 100%;
   margin: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: #518BF7;
+  background-color: #9abaf5;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -40,7 +40,7 @@ h1 {
 }
 .Item:hover {
   transition: linear 100ms;
-  background-color: #9ABAF5;
+  background-color: #274275;
 }
 .Item:hover ~ .Item {
   transition: linear 100ms;
