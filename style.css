@@ -62,3 +62,9 @@ h1 {
   font-size: auto;
   font-weight: 300;
 }
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
