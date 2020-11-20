@@ -40,7 +40,7 @@ h1 {
 }
 .Item:hover {
   transition: linear 100ms;
-  background-color: #274275;
+  background-color: #ffffff;
 }
 .Item:hover ~ .Item {
   transition: linear 100ms;
