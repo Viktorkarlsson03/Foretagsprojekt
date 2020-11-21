@@ -26,7 +26,7 @@ h1 {
 .Item {
   transition: linear 100ms;
   flex: 1;
-  width: 300px;
+  width: 250px;
   height: 100%;
   margin: 10px;
   margin-top: 10px;
@@ -54,8 +54,8 @@ h1 {
   margin: 5px;
 }
 .Item:hover .Square {
-  transition: linear 100ms;
-  transform: rotate(45deg);
+  transition: linear 200ms;
+  transform: rotate(135deg);
 }
 .Navigate {
   font-family: Trebuchet;
@@ -66,5 +66,7 @@ h1 {
 footer {
 	position: absolute;
 	bottom: 0px;
-	width: 100%;
+  width: 50%;
+  margin: 15px;
+  padding: 0px;
 }
